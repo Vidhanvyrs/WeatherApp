@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import ReactDOM from "react-dom";
 import { TiChevronLeftOutline, TiChevronRightOutline } from "react-icons/ti";
 
 const MAX_VISIBILITY = 1;
