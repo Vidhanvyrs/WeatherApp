@@ -79,12 +79,24 @@ img {
 }
 .sunny {
   background-image: url("images/weather2.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  /* opacity: 0.7; */
 }
 
 .cloudy {
   background-image: url("images/weather.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  /* opacity: 0.7; */
 }
 
-.rainy {
+.snowy {
   background-image: url("images/weather3.jpg");
-} 
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  /* opacity: 0.7; */
+}
