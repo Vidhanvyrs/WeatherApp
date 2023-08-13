@@ -4,15 +4,15 @@ This project is built using HTML, CSS and React framework. It allows users to ge
 
 ## Features
 
-**Real-time Weather Data**: The app provides up-to-date weather information for any location around the world.
+**Real-time Weather Data**: The app provides up-to-date weather information for any location worldwide.
 
-**Search Functionality**: Users can search for weather information for an specific location by entering its city name and it displays the coordinates (latitude and longitude).
+**Search Functionality**: Users can search for weather information for a specific location by entering its city name, and displaying the coordinates (latitude and longitude).
 
 **Weather Details**: The app presents detailed weather information, including temperature, humidity, wind speed, and weather condition.
 
-**Weather Forecast**: Presents the weather forecast for the next few days, including high and low temperatures, and it enables users to plan their travel activities accordingly.
+**Weather Forecast**: Presents the weather forecast for the next few days, including high and low temperatures, enabling users to plan their travel activities accordingly.
 
-**Climate Change**: Informs users to learn more the climate change and steps to act on it.
+**Climate Change**: Informs users to learn more about climate change and steps to take action.
 
 ## API Key
 
@@ -31,12 +31,12 @@ You can view this project by [clicking here](https://weather-app-two-peach.verce
 
 Contributions to this project are welcome. If you would like to contribute to the project, please follow these steps here:
 
-1. Fork the WeatherApp repository
-2. Create a new branch for feature or fix a bug
-3. Make necessary changes in your new branch (The one you created).
+1. Fork the WeatherApp repository and then clone the project.
+2. Create a new branch for a feature or fix a bug.
+3. Make necessary changes in your new branch (**The one you created**).
 4. Test your changes thoroughly.
-5. Save your changes before committing and pushing into Github (**Most important**).
-6. Submit a pull request to the main repository
+5. Save your changes before committing and pushing them into Github (**Most important**).
+6. Submit a pull request to the main repository.
 
 [Contribution guidelines for this project](CONTRIBUTING.md)
 
