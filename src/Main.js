@@ -22,65 +22,25 @@ const Main = (props) => {
               <div>and travel</div>
               <div id="master-container-scroller">
                 <div className="master-container-scroller_item">
-                  <a className="cta-link" href="#">
-                    Effortlessly
-                  </a>
-                  .
+                  Effortlessly.
+                </div>
+                <div className="master-container-scroller_item">Carefree.</div>
+                <div className="master-container-scroller_item">
+                  Confidently.
+                </div>
+                <div className="master-container-scroller_item">Easily .</div>
+                <div className="master-container-scroller_item">
+                  Fearlessly .
+                </div>
+                <div className="master-container-scroller_item">Joyfully .</div>
+                <div className="master-container-scroller_item">Grandly .</div>
+                <div className="master-container-scroller_item">
+                  Stressfree .
                 </div>
                 <div className="master-container-scroller_item">
-                  <a className="cta-link" href="#">
-                    Carefree
-                  </a>
-                  .
+                  Wihout any remorse .
                 </div>
-                <div className="master-container-scroller_item">
-                  <a className="cta-link" href="#">
-                    Confidently
-                  </a>
-                  .
-                </div>
-                <div className="master-container-scroller_item">
-                  <a className="cta-link" href="#">
-                    Easily
-                  </a>
-                  .
-                </div>
-                <div className="master-container-scroller_item">
-                  <a className="cta-link" href="#">
-                    Fearlessly
-                  </a>
-                  .
-                </div>
-                <div className="master-container-scroller_item">
-                  <a className="cta-link" href="#">
-                    Joyfully
-                  </a>
-                  .
-                </div>
-                <div className="master-container-scroller_item">
-                  <a className="cta-link" href="#">
-                    Grandly
-                  </a>
-                  .
-                </div>
-                <div className="master-container-scroller_item">
-                  <a className="cta-link" href="#">
-                    Stressfree
-                  </a>
-                  .
-                </div>
-                <div className="master-container-scroller_item">
-                  <a className="cta-link" href="#">
-                    Wihout any remorse
-                  </a>
-                  .
-                </div>
-                <div className="master-container-scroller_item">
-                  <a className="cta-link" href="#">
-                    😉
-                  </a>
-                  .
-                </div>
+                <div className="master-container-scroller_item">😉 .</div>
                 {/* <div className='master-container-scroller_item'>
               <a className='cta-link' href='#'></a>
              </div> */}
