@@ -104,7 +104,7 @@ const Main = (props) => {
         <div className="masthead-image" id="master-container">
           <Card>
             {[...new Array(CARD)].map((_, i) => (
-              <MainCard key={i} />
+              <MainCard idx={i} />
             ))}
           </Card>
         </div>
