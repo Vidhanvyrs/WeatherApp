@@ -28,6 +28,12 @@ function App() {
     }
   }, [data]);
 
+  const searchBtn = (e)=>{
+    if(e.key == "Enter"){
+      searchLocation()
+    }
+  }
+  
   const searchLocation = (event) => {
     const url = `http://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=5&appid=50c7eef00d13b49fb4b8a0b1dbaceafb`;
 
@@ -64,7 +70,7 @@ function App() {
             </a>
           </button>
           <span className="info-box">Know more about Climate Change</span>
-          <Input val={location} onchange={locator} btn={searchLocation} />
+          <Input val={location} onchange={locator} btn={searchLocation} btn2={searchBtn}/>
           <div className="updater">
             <Main location={location} />
             <Map lat={mapCoordinates.lat} lon={mapCoordinates.lon} />
