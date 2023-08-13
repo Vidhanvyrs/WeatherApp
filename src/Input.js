@@ -6,7 +6,8 @@ const Input = (props) => {
     value={props.val}
     onChange={props.onchange}
     placeholder='🗺️ Enter Location'
-    type='text'/>
+    type='text'
+    onKeyDown={props.btn2}/>
     <button className="btn" onClick={props.btn}>
     🔍
       </button>
