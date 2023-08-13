@@ -16,12 +16,13 @@ This project is built using HTML, CSS and React framework. It allows users to ge
 
 ## API Key
 
-This weather app uses OpenWeatherMap API to fetch weather data. To set up and use the API key:
+This weather app uses OpenWeatherMap and Google Maps API to fetch weather data. To set up and use the API keys:
 
 1. Visit [OpenWeatherMap](https://openweathermap.org/) website and create an account.
-2. To obtain an API key after creating an account. This key will be required to make API calls.
-3. Copy and then paste the API key into the project code.
-4. Save the changes.
+2. Visit [Google Maps](https://developers.google.com/maps/documentation/javascript/get-api-key) website and create an account
+3. To obtain an API key after creating an account. This key will be required to make API calls.
+4. Copy and then paste the API keys into the project code.
+5. Save the changes.
 
 ## Live preview
 
