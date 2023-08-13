@@ -2,7 +2,7 @@ import React from "react";
 import "./Card.css";
 import AuthContext from "./auth-context";
 
-const MainCard = () => (
+const MainCard = ({ idx }) => (
   <AuthContext.Consumer>
     {(ctx) => (
       <>
@@ -52,7 +52,7 @@ const MainCard = () => (
               </p>
             </div>
           );
-        })}
+        }).filter((_, index) => index === idx)}
       </>
     )}
   </AuthContext.Consumer>
