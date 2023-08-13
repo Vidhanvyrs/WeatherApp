@@ -77,3 +77,14 @@ img {
   right: 0;
   transform: translateX(100%) translateY(-20%);
 }
+.sunny {
+  background-image: url("images/weather2.jpg");
+}
+
+.cloudy {
+  background-image: url("images/weather.jpg");
+}
+
+.rainy {
+  background-image: url("images/weather3.jpg");
+} 
