@@ -1,34 +1,23 @@
 import './App.css'
 import { AuthProvider } from './context/auth-context'
-
 import Map from './Map'
 import Input from './Input'
 import Main from './Main'
+import Button from './Button'
 
 function App() {
   return (
     <AuthProvider>
       <div className='App'>
-        <div className='container'>
-          <p>
-            <button className='cc'>
-              <a
-                href='https://www.un.org/en/climatechange'
-                target='_blank'
-                rel='noopener noreferrer'
-              >
-                🌎
-              </a>
-              {/* <span className='info-box'>Know more about Climate Change</span> */}
-            </button>
-          </p>
+        <div className='search'>
+          <Button />
           <Input />
-
-          {/* <Main location={location} /> This was refractored to below */}
-          <Main />
-          <Map />
+          <div className='updater'>
+            <Main />
+            <Map />
+          </div>
+          <footer>Made with ❤ for Nature & People</footer>
         </div>
-        <footer>Made with ❤ for Nature & People</footer>
       </div>
     </AuthProvider>
   )

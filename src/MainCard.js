@@ -1,4 +1,3 @@
-import React from 'react'
 import './Card.css'
 import { AuthContext } from './context/auth-context'
 
@@ -15,7 +14,7 @@ const daysOfWeek = [
 const MainCard = ({ idx }) => (
   <AuthContext.Consumer>
     {(ctx) => (
-      <div>
+      <>
         {ctx.forecastData
           .map((data, index) => {
             let message = ''
@@ -74,7 +73,7 @@ const MainCard = ({ idx }) => (
           })
           .filter((_, index) => index === idx)}{' '}
         {/* Filter based on idx */}
-      </div>
+      </>
     )}
   </AuthContext.Consumer>
 )
