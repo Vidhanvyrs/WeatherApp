@@ -32,7 +32,7 @@ function App() {
   };
 
   const searchLocation = () => {
-    const url = `http://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=5&appid=50c7eef00d13b49fb4b8a0b1dbaceafb`;
+    const url = `https://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=5&appid=50c7eef00d13b49fb4b8a0b1dbaceafb`;
 
     axios.get(url).then((response) => {
       setData(response.data);
