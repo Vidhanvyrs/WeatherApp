@@ -1,8 +1,11 @@
 .App {
-  display: flex;
+  /* display: flex;
   justify-content: center;
   margin-top: 10px;
-  text-align: center;
+  text-align: center; */
+
+  /* //// */
+
   /* background-color: #F5C59C;
   -webkit-animation: master-container-bg 15s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
   animation: master-container-bg 15s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
@@ -19,19 +22,25 @@
 
 /* for input */
 
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  column-gap: 5rem;
+}
+
 input {
   font-weight: bold;
   text-transform: uppercase;
   /* font-family: 'Abril Fatface', cursive; */
-  font-family: "Special Elite", cursive;
-  margin-left: 920px;
+  font-family: 'Special Elite', cursive;
+  /* margin-left: 920px; */
   padding-top: 12px;
   padding-bottom: 5px;
   padding-left: 10px;
   border: 3px solid black;
   background: transparent;
   border-radius: 30px;
-  width: 25%;
+  width: 50%;
   /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25); */
 }
 
@@ -39,7 +48,6 @@ input {
 
 .btn {
   margin-top: 3%;
-  margin-left: -86px;
   width: 6%;
   padding: 6px;
   border-radius: 30px;
@@ -56,6 +64,7 @@ text-transform: uppercase; */
   box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.25);
 }
 .cc {
+  display: inline-block;
   padding: 6px;
   font-size: 35px;
   border: 1px solid #020202;
@@ -80,7 +89,7 @@ text-transform: uppercase; */
   transform: translateY(-50%) translateX(0%);
   width: 300px;
   padding: 5px;
-  font-family: "Special Elite", cursive;
+  font-family: 'Special Elite', cursive;
   font-weight: bold;
   border: 1px solid #000000;
   border-radius: 30px;
@@ -106,7 +115,7 @@ text-transform: uppercase; */
   border: 1px solid rgb(0, 0, 0);
   border-radius: 30px;
   color: rgb(0, 0, 0);
-  font-family: "Vina Sans", cursive;
+  font-family: 'Vina Sans', cursive;
   font-size: large;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
   transition: all 0.1s ease-in;
@@ -118,7 +127,7 @@ text-transform: uppercase; */
   padding: 5px;
   border-radius: 30px;
   /* font-family: "Helvetica Neue", Arial, Helvetica, sans-serif; */
-  font-family: "Vina Sans", cursive;
+  font-family: 'Vina Sans', cursive;
   font-size: large;
   color: rgb(191, 188, 188);
   border: 1px solid rgb(191, 188, 188);
@@ -139,9 +148,20 @@ text-transform: uppercase; */
 
 /* the flex display */
 
-.updater {
+/* .updater {
   display: flex;
+} */
+
+@media screen and (max-width: 480px) {
+  body {
+    margin: auto auto;
+  }
+
+  .container {
+    display: block;
+  }
 }
+
 .flex-child {
   width: 500px;
   height: 500px;
@@ -199,7 +219,7 @@ a {
 }
 
 #master {
-  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 60px;
   font-style: normal;
   text-decoration: none;
@@ -1116,6 +1136,6 @@ footer {
   margin-left: 30px;
   margin-top: 15px;
   font-size: 15px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
 }
