@@ -4,7 +4,7 @@ import MainCard from './MainCard'
 import './Card.css'
 import { useAuth } from './context/auth-context'
 
-const CARD = 7
+const CARD = 4
 const Main = () => {
   const { location, showContent, setShowContent } = useAuth()
 
