@@ -14,10 +14,10 @@ export const AuthProvider = function({ children }) {
     if (data.length > 0) {
       const lat = data[0].lat
       const lon = data[0].lon
-      const weatherUrl = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&cnt=5&appid=50c7eef00d13b49fb4b8a0b1dbaceafb`
+      const weatherUrl = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&cnt=7&appid=50c7eef00d13b49fb4b8a0b1dbaceafb`
 
       axios.get(weatherUrl).then((weatherResponse) => {
-        const forecastData = weatherResponse.data.list.slice(0, 4) // Fetching 4 days of forecast
+        const forecastData = weatherResponse.data.list.slice(0, 7) // Fetching 4 days of forecast
         // const forecastData = weatherResponse.data.list
         // console.log(forecastData)
         setData(forecastData)
