@@ -1,17 +1,19 @@
-import React from "react";
-const Input = (props) => {
-    return( 
-         <> 
-        <input 
-    value={props.val}
-    onChange={props.onchange}
-    placeholder='🗺️ Enter Location'
-    type='text'
-    onKeyDown={props.btn2}/>
-    <button className="btn" onClick={props.btn}>
-    🔍
+import { useAuth } from './context/auth-context'
+const Input = () => {
+  const { location, locator, searchLocation, searchBtn } = useAuth()
+  return (
+    <>
+      <input
+        value={location}
+        onChange={locator}
+        placeholder='🗺️ Enter Location'
+        type='text'
+        onKeyDown={searchBtn}
+      />
+      <button className='btn' onClick={searchLocation}>
+        🔍
       </button>
-      </>
-    );
+    </>
+  )
 }
-export default Input;
+export default Input

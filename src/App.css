@@ -23,7 +23,7 @@ input {
   font-weight: bold;
   text-transform: uppercase;
   /* font-family: 'Abril Fatface', cursive; */
-  font-family: "Special Elite", cursive;
+  font-family: 'Special Elite', cursive;
   margin-left: 920px;
   padding-top: 12px;
   padding-bottom: 5px;
@@ -80,7 +80,7 @@ text-transform: uppercase; */
   transform: translateY(-50%) translateX(0%);
   width: 300px;
   padding: 5px;
-  font-family: "Special Elite", cursive;
+  font-family: 'Special Elite', cursive;
   font-weight: bold;
   border: 1px solid #000000;
   border-radius: 30px;
@@ -106,7 +106,7 @@ text-transform: uppercase; */
   border: 1px solid rgb(0, 0, 0);
   border-radius: 30px;
   color: rgb(0, 0, 0);
-  font-family: "Vina Sans", cursive;
+  font-family: 'Vina Sans', cursive;
   font-size: large;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
   transition: all 0.1s ease-in;
@@ -118,7 +118,7 @@ text-transform: uppercase; */
   padding: 5px;
   border-radius: 30px;
   /* font-family: "Helvetica Neue", Arial, Helvetica, sans-serif; */
-  font-family: "Vina Sans", cursive;
+  font-family: 'Vina Sans', cursive;
   font-size: large;
   color: rgb(191, 188, 188);
   border: 1px solid rgb(191, 188, 188);
@@ -199,7 +199,7 @@ a {
 }
 
 #master {
-  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 60px;
   font-style: normal;
   text-decoration: none;
@@ -1116,6 +1116,6 @@ footer {
   margin-left: 30px;
   margin-top: 15px;
   font-size: 15px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
 }
